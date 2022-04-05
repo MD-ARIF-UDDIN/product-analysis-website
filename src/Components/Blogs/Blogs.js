@@ -15,7 +15,7 @@ const Blogs = () => {
             some data needs to be accessible by many components which are at
             nested level.It is an alternative to "prop drilling".If we want to
             define several unrelated contexts (stores) and use each in its
-            proper place in the app we can use Context API.{" "}
+            proper place in the app we can use Context API.
           </p>
         </div>
         <div className="ques-container card col p-5 m-5 rounded">

@@ -1,6 +1,5 @@
-.card-container{
-    background-color:  #f8baba;
-    box-shadow: 5px 5px 5px #f8baba;
+.card-container{ 
+    box-shadow: 5px 5px 15px  #f8baba;
 }
 .reviewer-name{
    font-size: 30px;
