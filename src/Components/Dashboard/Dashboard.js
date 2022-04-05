@@ -1,9 +1,9 @@
-import { Tooltip } from "bootstrap";
+import { Bar, BarChart, Tooltip } from "recharts";
 import React from "react";
 import { CartesianGrid, Legend, Line, LineChart, XAxis, YAxis } from "recharts";
 
 const Dashboard = () => {
-  const data =[
+  const data = [
     {
       month: "Mar",
       investment: 100000,
@@ -42,8 +42,9 @@ const Dashboard = () => {
     },
   ];
   return (
-    <div>
+    <div className="d-flex mt-5">
       <div>
+        <h1>Line Chart</h1>
         <LineChart
           width={730}
           height={250}
@@ -57,9 +58,22 @@ const Dashboard = () => {
           <Legend />
           <Line type="monotone" dataKey="sell" stroke="#8884d8" />
           <Line type="monotone" dataKey="investment" stroke="#82ca9d" />
+          <Line type="monotone" dataKey="revenue" stroke="#82ca9d" />
         </LineChart>
       </div>
-      <div></div>
+      <div>
+      <h1>Bar Chart</h1>
+        <BarChart width={730} height={250} data={data}>
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Bar dataKey="sell" fill="#8884d8" />
+          <Bar dataKey="investment" fill="#82ca9d" />
+          <Bar dataKey="revenue" fill="#82ca9d" />
+        </BarChart>
+      </div>
     </div>
   );
 };
