@@ -10,6 +10,7 @@ const Notfound = () => {
         />
       </div>
       <div>
+        <h1>404</h1>
         <h1>Oops!</h1>
         <h3>Something went wrong</h3>
         <h3>Not Found</h3>
