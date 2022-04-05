@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+  return <div className="App">
+    <Routes>
+      <Route />
+    </Routes>
+  </div>;
 }
 
 export default App;
