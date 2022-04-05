@@ -4,9 +4,9 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="m p-3 header d-flex justify-content-between">
       <div className="header-name text-danger">
-          <h3>Choose Bullet</h3>
+        <h3>Choose Bullet</h3>
       </div>
       <div>
         <Link className="link" to="/">

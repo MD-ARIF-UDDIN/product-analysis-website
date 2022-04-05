@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Rahim",
+      "review": "Awesome bike,I liked it",
+      "rating": "5 out of 5"
+    },
+    {
+      "name": "Karim",
+      "review": "Liked the bike,not the design",
+      "rating": "3 out of 5"
+    },
+    {
+      "name": "Jamal",
+      "review": "My favourite bike but I can't afford it.",
+      "rating": "5 out of 5"
+    },
+    {
+      "name": "Fahim",
+      "review": "Best bike,best build,best ride",
+      "rating": "5 out of 5"
+    },
+    {
+      "name": "Sahil",
+      "review": "Best build quality,someone will like it on first impression",
+      "rating": "5 out of 5"
+    },
+    {
+      "name": "belal",
+      "review": "Nice bike,but consumes to much patrol",
+      "rating": "3 out of 5"
+    }
+  ]
