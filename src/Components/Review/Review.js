@@ -1,15 +1,16 @@
-import React from 'react';
+import React from "react";
+import "./Review.css";
 
 const Review = (props) => {
-    const {name,review,rating}=props.review;
+  const { name, review, rating } = props.review;
 
-    return (
-        <div className="card container mt-5 bg-danger text-white">
-            <h4>Name:{name}</h4>
-            <h4>{review}</h4>
-            <h4>{rating}</h4>
-        </div>
-    );
+  return (
+    <div className="card-container container m-5 p-5 rounded shadow-lg text-black">
+      <h4 className="reviewer-name">{name}</h4>
+      <p>{review}</p>
+      <h5>Rating:{rating}</h5>
+    </div>
+  );
 };
 
 export default Review;

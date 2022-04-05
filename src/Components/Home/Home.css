@@ -1,10 +1,22 @@
 .title-home{
    font-weight: bolder;
    font-size: 90px;
+   
+}
+.title1-home{
+    text-shadow: 2px 2px #ff0000;
+}
+.title2-home{
+    text-shadow: 2px 2px #000000;
 }
 .see-all-review{
     padding: 10px;
     border-radius: 10px;
     color:white;
     border: 2px solid;
+}
+.review-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
 }

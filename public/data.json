@@ -1,0 +1,38 @@
+[
+    {
+      "id":1,
+      "name": "Rahim Uddin",
+      "review": "A beast to own.I purchased bullet electra on the day it was launched a decade back.Though company claimed to solve the oil leakage problem but that problem was never solved.Build quality is still very strong but yes parts availability is a challenge.",
+      "rating": "5 out of 5"
+    },
+    {
+       "id":2,
+      "name": "Karim Uddin",
+      "review": "Liked the bike,not the design.One of the best bike you will see in the market.Yet some disadvantage it has.But it is the best bike within budget. They must have to give a 6th Gear",
+      "rating": "3 out of 5"
+    },
+    {
+      "id":3,
+      "name": "Jamal Uddin",
+      "review": "Without hesitation I can say that the Royal Enfield Bullet is very comfortable. But, I only ride between 55-60mph and never go over. The saddle is large and comfy and the riding position feels very natural.",
+      "rating": "5 out of 5"
+    },
+    {
+     "id":4,
+      "name": "Fahim Uddin",
+      "review": "I love how simple the Royal Enfield Bullet is and how easy it is to travel on. When it comes to what’s good about it being a travel bike, then two other points really stand out. ",
+      "rating": "5 out of 5"
+    },
+    {
+      "id":5,
+      "name": "Sahil Haque",
+      "review": "Best build quality,someone will like it on first impression.So safe while riding.Best bike for tour.But sound is not good.It is not running like I expected",
+      "rating": "4 out of 5"
+    },
+    {
+        "id":6,
+      "name": "Belal Uddin",
+      "review": "I own this since 2018 i am very much happy with performance, Service on time resolves all mechanical issues.Never faced breakdown issues, Smooth on normal road , Safest bike in all mis-happening.But need some improvement.",
+      "rating": "3 out of 5"
+    }
+  ]
